@@ -1,3 +1,4 @@
+
 fetch('https://api.sampleapis.com/coffee/ice')
     .then(response => {
         if (!response.ok) {
