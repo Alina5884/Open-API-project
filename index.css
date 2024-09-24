@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playpen Sans";
+    background: linear-gradient(150deg, #EAF0CE, #BBE0D7);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #443850;
+    margin: 4rem auto;
+}
+
+i {
+    color: #877898;
+}
+
+button {
+    margin: 1.5rem;
+    padding: 1rem 1.5rem;
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #877898; 
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #443850;
+    transform: scale(1.05);
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#image-container img {
+    max-width: 250px;
+    max-height: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 2.5px solid #BBBE64;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s; 
+}
+
+#image-container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#message {
+    font-size: 2.3rem;
+    font-weight: 900;
+    margin-top: 20px;
+    color: #443850;
+}
+
+footer {
+    margin: 18rem auto auto;
+    padding: 10px;
+    border-radius: 5px;
+}
